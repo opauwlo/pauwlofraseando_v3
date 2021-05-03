@@ -1,0 +1,17 @@
+{
+  "name": "pauwlo",
+  "short_name": "pauwlo",
+  "lang": "pt-BR",
+  "start_url": "/index.html",
+  "scope": "pauwlo.vercel.app",
+  "display": "standalone",
+  "theme_color": "#e4e4e4",
+  "icons": [
+    {
+      "src": "./Oblog/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#00000"
+}

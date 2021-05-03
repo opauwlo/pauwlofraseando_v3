@@ -2,6 +2,32 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="manifest" href="manifest.json" />
+
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="application-name" content="pauwlo" />
+  <meta name="apple-mobile-web-app-title" content="pauwlo" />
+  <meta name="theme-color" content="#e4e4e4" />
+  <meta name="msapplication-navbutton-color" content="#e4e4e4" />
+  <meta
+    name="apple-mobile-web-app-status-bar-style"
+    content="black-translucent"
+  />
+  <meta name="msapplication-starturl" content="/index.html" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  <link rel="icon" type="image/png" sizes="512x512" href="icon.png" />
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="512x512"
+    href="./Oblog/img/icon.png"
+  />
+  <link rel="canonical" href="pauwlo.vercel.app" />
   <script defer src="../Oblog/js/theme.js"></script>
 
   <link rel="stylesheet" href="../Oblog/styles/style.css" />
@@ -33,6 +59,26 @@
 </head>
 
 <body>
+  <script>
+    // This is the service worker with the Cache-first network
+        // Add this below content to your HTML page, or add the js file to your page at the very top to
+        register service worker
+        // Check compatibility for the browser we're running this in
+        if ("serviceWorker" in navigator) {
+        if (navigator.serviceWorker.controller) {
+        console.log("[PWA Builder] active service worker found, no need to register");
+        } else {
+        // Register the service worker
+        navigator.serviceWorker
+        .register("pwabuilder-sw.js", {
+        scope: "./"
+        })
+        .then(function (reg) {
+        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+        });
+        }
+        }
+  </script>
   <header>
     <svg
       class="waves"
