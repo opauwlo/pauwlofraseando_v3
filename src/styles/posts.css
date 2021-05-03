@@ -1,0 +1,127 @@
+@import "./style.css";
+.card {
+  position: relative;
+  width: 95vw;
+  box-shadow: 0 0 3px 3px var(--bg-secondary);
+  cursor: pointer;
+  align-items: center;
+  margin-top: 1rem;
+  z-index: 0;
+  text-decoration: none;
+}
+
+.text {
+  margin: 20px auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tittle {
+  font-weight: lighter;
+  font-family: "Girassol", cursive;
+}
+
+.card:after,
+.card:before {
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:before {
+  border-left: 1.5px solid var(--text-title);
+  border-right: 1.5px solid var(--text-title);
+  transform: scaleY(0);
+}
+
+.card:after {
+  border-bottom: 1.5px solid var(--text-title);
+  border-top: 1.5px solid var(--text-title);
+  transform: scaleX(0);
+}
+
+.card:hover:before {
+  transform: scaleY(1);
+}
+
+.card:hover:after {
+  transform: scaleX(1);
+}
+
+.posts {
+  margin-top: -90vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 160vh;
+}
+
+@media only screen and (max-width: 370px) {
+  .posts {
+    height: 200vh;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-secondary);
+}
+
+mark {
+  background-color: var(--text-title);
+}
+
+.resposta {
+  background-color: var(--text-mark);
+  color: var(--text-title-mark);
+}
+/* posts PAG */
+.titulo-home {
+  font-family: "Girassol", cursive;
+  position: fixed;
+  z-index: 0;
+  font-size: 2.3rem;
+  text-align: center;
+  height: 80vh;
+  color: var(--text-title);
+}
+.card-pages {
+  position: relative;
+  width: 95vw;
+  align-items: center;
+  margin-top: 1.2rem;
+  z-index: 0;
+}
+
+.text-pages {
+  margin: 10px 10px;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  text-justify: distribute;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.tittle-pages {
+  font-weight: lighter;
+  font-family: "Girassol", cursive;
+}
+
+@media only screen and (min-width: 600px) {
+  .text-pages {
+    margin: 100px 100px;
+    padding-left: 2rem;
+  }
+
+  .card-pages {
+    width: 100vw;
+  }
+
+  .card {
+    width: 100vw;
+  }
+}

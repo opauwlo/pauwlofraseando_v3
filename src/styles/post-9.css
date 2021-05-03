@@ -1,0 +1,33 @@
+@import "./posts.css";
+.posts-pages-9 {
+  margin-top: -90vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 230vh;
+}
+
+@media only screen and (max-width: 370px) {
+  .posts-pages-9 {
+    height: 265vh;
+  }
+}
+
+::placeholder {
+  color: var(--text-primary);
+}
+
+textarea {
+  overflow: hidden;
+  resize: none;
+  outline: none;
+  height: 3vh;
+  background-color: var(--text-title);
+  width: 120px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2vh;
+  font-weight: bold;
+  border: none;
+  border-radius: 1px;
+}

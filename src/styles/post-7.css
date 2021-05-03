@@ -1,0 +1,25 @@
+@import "./posts.css";
+.posts-pages-7 {
+  margin-top: -90vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 330vh;
+}
+
+@media only screen and (max-width: 370px) {
+  .posts-pages-7 {
+    height: 380vh;
+  }
+}
+
+.text-pages-7 {
+  margin: 10px 10px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-decoration: underline var(--text-title);
+  text-justify: distribute;
+  font-weight: bold;
+  font-size: 2vh;
+}
