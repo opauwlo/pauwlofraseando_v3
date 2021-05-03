@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 :root {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -33,9 +38,11 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
+
 .navbar::-webkit-scrollbar {
   height: 0.25rem;
 }
+
 .navbar::-webkit-scrollbar {
   width: 0.25rem;
 }
@@ -99,9 +106,11 @@ main {
   display: none;
   margin-left: 1.5rem;
 }
+
 .link-text-mobile {
   display: none;
 }
+
 .nav-link svg {
   width: 2rem;
   min-width: 2rem;
@@ -152,6 +161,7 @@ main {
   text-align: center;
   font-family: "Girassol", cursive;
 }
+
 .cont {
   font-family: "Open Sans", sans-serif;
 }
@@ -164,6 +174,7 @@ main {
     height: 5rem;
     overflow: hidden;
   }
+
   .waves {
     height: 70vh;
   }
@@ -180,6 +191,7 @@ main {
     justify-content: center;
     margin-left: -0.3rem;
   }
+
   main {
     margin: 0;
   }
@@ -192,6 +204,7 @@ main {
     height: 5rem;
     overflow: hidden;
   }
+
   .posts {
     margin-top: -20rem;
   }
@@ -208,6 +221,7 @@ main {
     justify-content: center;
     margin-left: -0.8rem;
   }
+
   main {
     margin: 0;
   }
@@ -355,6 +369,7 @@ header {
   text-align: center;
   color: var(--text-title);
 }
+
 .slider {
   width: 17em;
   height: 17em;
@@ -381,6 +396,7 @@ button.slick-next {
   background-color: transparent;
   position: absolute;
 }
+
 .titulo-home {
   font-family: "Girassol", cursive;
   position: fixed;
@@ -390,6 +406,7 @@ button.slick-next {
   height: 80vh;
   color: var(--text-title);
 }
+
 .card {
   position: relative;
   width: 95vw;
@@ -400,6 +417,7 @@ button.slick-next {
   z-index: 0;
   text-decoration: none;
 }
+
 .creditos {
   font-size: 1vh;
   text-align: center;
@@ -415,6 +433,7 @@ button.slick-next {
   font-weight: lighter;
   font-family: "Girassol", cursive;
 }
+
 .card:after,
 .card:before {
   bottom: 0;
@@ -454,22 +473,27 @@ button.slick-next {
   flex-direction: column;
   height: 160vh;
 }
+
 @media only screen and (max-width: 370px) {
   .posts {
     height: 200vh;
   }
 }
+
 a {
   text-decoration: none;
   color: var(--text-secondary);
 }
+
 mark {
   background-color: var(--text-title);
 }
+
 .resposta {
   background-color: var(--text-mark);
   color: var(--text-title-mark);
 }
+
 /* posts PAG */
 
 .card-pages {
@@ -479,6 +503,7 @@ mark {
   margin-top: 1.2rem;
   z-index: 0;
 }
+
 .text-pages {
   margin: 10px 10px;
   font-family: "Open Sans", sans-serif;
@@ -501,11 +526,13 @@ mark {
   flex-direction: column;
   height: 390vh;
 }
+
 @media only screen and (max-width: 370px) {
   .posts-pages-1 {
     height: 420vh;
   }
 }
+
 .posts-pages-2 {
   margin-top: -90vh;
   display: flex;
@@ -514,11 +541,13 @@ mark {
   flex-direction: column;
   height: 280vh;
 }
+
 @media only screen and (max-width: 370px) {
   .posts-pages-2 {
     height: 310vh;
   }
 }
+
 .posts-pages-3 {
   margin-top: -90vh;
   display: flex;
@@ -527,11 +556,13 @@ mark {
   flex-direction: column;
   height: 280vh;
 }
+
 @media only screen and (max-width: 370px) {
   .posts-pages-3 {
     height: 310vh;
   }
 }
+
 .posts-pages-4 {
   margin-top: -90vh;
   display: flex;
@@ -540,11 +571,13 @@ mark {
   flex-direction: column;
   height: 260vh;
 }
+
 @media only screen and (max-width: 370px) {
   .posts-pages-4 {
     height: 290vh;
   }
 }
+
 .posts-pages-5 {
   margin-top: -90vh;
   display: flex;
@@ -553,11 +586,13 @@ mark {
   flex-direction: column;
   height: 220vh;
 }
+
 @media only screen and (max-width: 370px) {
   .posts-pages-5 {
     height: 250vh;
   }
 }
+
 .posts-pages-6 {
   margin-top: -90vh;
   display: flex;
@@ -575,11 +610,13 @@ mark {
   flex-direction: column;
   height: 330vh;
 }
+
 @media only screen and (max-width: 370px) {
   .posts-pages-7 {
     height: 380vh;
   }
 }
+
 .text-pages-7 {
   margin: 10px 10px;
   font-family: "Open Sans", sans-serif;
@@ -589,6 +626,7 @@ mark {
   font-weight: bold;
   font-size: 2vh;
 }
+
 .posts-pages-8 {
   margin-top: -90vh;
   display: flex;
@@ -597,11 +635,13 @@ mark {
   flex-direction: column;
   height: 230vh;
 }
+
 @media only screen and (max-width: 370px) {
   .posts-pages-8 {
     height: 260vh;
   }
 }
+
 .posts-pages-9 {
   margin-top: -90vh;
   display: flex;
@@ -610,14 +650,17 @@ mark {
   flex-direction: column;
   height: 230vh;
 }
+
 @media only screen and (max-width: 370px) {
   .posts-pages-9 {
     height: 265vh;
   }
 }
+
 ::placeholder {
   color: var(--text-primary);
 }
+
 textarea {
   overflow: hidden;
   resize: none;
@@ -631,14 +674,17 @@ textarea {
   border: none;
   border-radius: 1px;
 }
+
 @media only screen and (min-width: 600px) {
   .text-pages {
     margin: 100px 100px;
     padding-left: 2rem;
   }
+
   .card-pages {
     width: 100vw;
   }
+
   .card {
     width: 100vw;
   }
