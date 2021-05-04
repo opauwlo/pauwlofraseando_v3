@@ -364,34 +364,6 @@ header {
   text-align: center;
   color: var(--text-title);
 }
-
-.slider {
-  width: 17em;
-  height: 17em;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  position: fixed;
-  border: var(--text-primary);
-  border-style: solid;
-}
-
-button.slick-prev {
-  font-size: 0px;
-  border: none;
-  z-index: auto;
-  background-color: transparent;
-  position: absolute;
-}
-
-button.slick-next {
-  font-size: 0px;
-  border: none;
-  z-index: auto;
-  background-color: transparent;
-  position: absolute;
-}
-
 .titulo-home {
   font-family: "Girassol", cursive;
   position: fixed;

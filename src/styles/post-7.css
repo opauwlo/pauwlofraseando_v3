@@ -5,12 +5,12 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  height: 330vh;
+  height: 332vh;
 }
 
 @media only screen and (max-width: 370px) {
   .posts-pages-7 {
-    height: 380vh;
+    height: 382vh;
   }
 }
 
@@ -21,5 +21,5 @@
   text-decoration: underline var(--text-title);
   text-justify: distribute;
   font-weight: bold;
-  font-size: 2vh;
+  font-size: 2.2vh;
 }

@@ -5,11 +5,11 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  height: 260vh;
+  height: 270vh;
 }
 
 @media only screen and (max-width: 370px) {
   .posts-pages-4 {
-    height: 290vh;
+    height: 295vh;
   }
 }

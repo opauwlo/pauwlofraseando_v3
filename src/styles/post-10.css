@@ -1,15 +1,15 @@
 @import "./posts.css";
-.posts-pages-5 {
+.posts-pages-10 {
   margin-top: -90vh;
   display: flex;
   align-items: center;
   text-align: center;
   flex-direction: column;
-  height: 221vh;
+  height: 215vh;
 }
 
 @media only screen and (max-width: 370px) {
-  .posts-pages-5 {
-    height: 255vh;
+  .posts-pages-10 {
+    height: 250vh;
   }
 }
