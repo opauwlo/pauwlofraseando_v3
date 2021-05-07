@@ -373,8 +373,3 @@ header {
   height: 80vh;
   color: var(--text-title);
 }
-@media only screen and (max-width: 370px) {
-  .posts {
-    height: 200vh;
-  }
-}
