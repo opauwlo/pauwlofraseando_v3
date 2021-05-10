@@ -1,9 +1,1 @@
-@import "./posts.css";
-.posts-pages-6 {
-  margin-top: -90vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  height: 90vh;
-}
+@import url(posts.css);.posts-pages-6{margin-top:-90vh;display:flex;align-items:center;text-align:center;flex-direction:column;height:90vh}

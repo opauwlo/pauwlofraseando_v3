@@ -1,15 +1,1 @@
-@import "./posts.css";
-.posts-pages-6 {
-  margin-top: -90vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  height: 80vh;
-}
-
-@media only screen and (max-width: 370px) {
-  .posts-pages-6 {
-    height: 110vh;
-  }
-}
+@import url(posts.css);.posts-pages-6{margin-top:-90vh;display:flex;align-items:center;text-align:center;flex-direction:column;height:80vh}@media only screen and (max-width:370px){.posts-pages-6{height:110vh}}
